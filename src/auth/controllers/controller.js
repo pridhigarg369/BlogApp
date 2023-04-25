@@ -68,8 +68,8 @@ const forgot_Password = async (req, res) => {
       port: 25,
       secure: true,
       auth: {
-        user: "pridhi1667.be20@chitkara.edu.in",
-        pass: "Pridhi1667 .",
+        user: "",
+        pass: "",
       },
     });
     var mailDetails = {
